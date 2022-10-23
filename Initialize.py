@@ -23,3 +23,4 @@ C_S = 790 # specific heat capacity for land [J*kg/K]
 C_W = 4187 # specific heat capacity for water [J*kg/K]
 C_I = 2060 # specific heat capacity for ice [J*kg/K]
 
+# ZONE PROPERTIES
