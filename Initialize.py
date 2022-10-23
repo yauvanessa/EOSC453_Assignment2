@@ -24,3 +24,38 @@ C_W = 4187 # specific heat capacity for water [J*kg/K]
 C_I = 2060 # specific heat capacity for ice [J*kg/K]
 
 # ZONE PROPERTIES
+# 1
+a1 = 0.067
+gamma_1 = 0.1076
+# 2
+a2 = 0.183
+gamma_2 = 0.2277
+# 3
+a3 = 0.25
+gamma_3 = 0.3045
+# 4
+a4 = 0.25
+gamma_4 = 0.3045
+# 5
+a5 = 0.183
+gamma_5 = 0.2277
+# 6
+a6 = 0.067
+gamma_6 = 0.1076
+
+# INTRA-ZONAL EXCHANGES
+# boundary 12 (60deg S)
+L12 = 2.0015*10^7 # boundary length [m]
+k12 = 1*10^7 # thermal exchange coefficient [W/mK]
+# boundary 23 (30deg S)
+L23 = 3.4667*10^7
+k23 = 1*10^7
+# boundary 34 (0deg)
+L34 = 4.003*10^7
+k34 = 1*10^7
+# boundary 45
+L45 = 3.4667*10^7
+k45 = 5*10^7
+# boundary 56
+L56 = 2.0015*10^7
+k56 = 1*10^7
